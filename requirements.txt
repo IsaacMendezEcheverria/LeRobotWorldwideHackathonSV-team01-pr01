@@ -1,3 +1,5 @@
 mujoco
 numpy
+glfw
+PyOpenGL
 

@@ -3,7 +3,7 @@ import mujoco.viewer
 import numpy as np
 
 # Load the XML
-model = mujoco.MjModel.from_xml_path("two_robot_scene.xml")
+model = mujoco.MjModel.from_xml_path("/home/isaacmendez/projects/git/LeRobotWorldwideHackathonSV-team01-pr01/mujoco_models/two_robot_scene.xml")
 data = mujoco.MjData(model)
 
 # Viewer
