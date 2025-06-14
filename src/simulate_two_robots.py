@@ -25,3 +25,4 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
 
         mujoco.mj_step(model, data)
         viewer.sync()
+        viewer.render()
