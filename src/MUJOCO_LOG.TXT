@@ -4,3 +4,9 @@ ERROR: could not create window
 Sat Jun 14 15:48:05 2025
 ERROR: could not create window
 
+Sat Jun 14 16:12:24 2025
+ERROR: could not create window
+
+Sat Jun 14 16:21:07 2025
+ERROR: could not create window
+
