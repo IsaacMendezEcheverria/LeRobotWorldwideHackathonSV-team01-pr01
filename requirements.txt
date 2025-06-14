@@ -2,4 +2,3 @@ mujoco
 numpy
 glfw
 PyOpenGL
-
