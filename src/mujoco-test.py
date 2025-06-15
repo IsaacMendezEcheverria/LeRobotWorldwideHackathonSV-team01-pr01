@@ -8,4 +8,3 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
         data.ctrl[:] = 0.0  # No control input
         mujoco.mj_step(model, data)
         viewer.sync()
-        viewer.render()
