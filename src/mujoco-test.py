@@ -1,4 +1,6 @@
 import mujoco
+import mujoco.viewer
+
 model = mujoco.MjModel.from_xml_string("<mujoco><worldbody></worldbody></mujoco>")
 data = mujoco.MjData(model)
 with mujoco.viewer.launch_passive(model, data) as viewer:
