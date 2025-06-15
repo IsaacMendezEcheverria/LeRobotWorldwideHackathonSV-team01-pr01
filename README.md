@@ -8,8 +8,17 @@ This project simulates a two-robot collaborative task using the MuJoCo physics e
 - `src/`: Python control logic using MuJoCo API.
 - `docs/`: Project description and technical documentation.
 
+## ⚙️ Setup
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 🚀 Run the Simulation
 
 ```bash
 cd src
 python simulate_two_robots.py
+```
