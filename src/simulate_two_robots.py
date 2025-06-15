@@ -1,9 +1,11 @@
+import os
 import mujoco
 import mujoco.viewer
 import numpy as np
 
-# Load the XML
-model = mujoco.MjModel.from_xml_path("/home/isaacmendez/projects/git/LeRobotWorldwideHackathonSV-team01-pr01/mujoco_models/two_robot_scene.xml")
+# Load the XML using a path relative to this file
+XML_PATH = os.path.join(os.path.dirname(__file__), "../mujoco_models/two_robot_scene.xml")
+model = mujoco.MjModel.from_xml_path(XML_PATH)
 data = mujoco.MjData(model)
 
 # Viewer
