@@ -1,9 +1,0 @@
-```json
-{
-  "python.pythonPath": "venv/bin/python",
-  "files.exclude": {
-    "**/__pycache__": true
-  },
-  "python.linting.enabled": true,
-  "python.formatting.provider": "black"
-}
